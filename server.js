@@ -7,7 +7,6 @@ var io = require('socket.io').listen(server);
 This code allows anyone to grab this multiplayer server template, and simply upload their game files into the root directory.
 Server.js takes care of adding multiplayer functionality by editing index.html and inserting references to the multiplayer javascript files.
 Once that's done, the server serves the updated HTML with multiplayer to the client, and no one needs to edit any files!
-To work, this should find: 
 */
 
 var replace = require('replace-in-file');
